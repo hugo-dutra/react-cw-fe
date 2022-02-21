@@ -47,6 +47,7 @@ import SignUp from "views/authentication/sign-up";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
+import Main from "views/main";
 
 const routes = [
   {
@@ -56,6 +57,14 @@ const routes = [
     icon: <Icon fontSize="small">dashboard</Icon>,
     route: "/dashboard",
     component: <Dashboard />,
+  },
+  {
+    type: "collapse",
+    name: "Main",
+    key: "main",
+    icon: <Icon fontSize="small">Main</Icon>,
+    route: "/main",
+    component: <Main />,
   },
   {
     type: "collapse",

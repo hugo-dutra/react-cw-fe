@@ -286,7 +286,7 @@ _Warnings might appear while doing an npm install - they do not affect the UI or
 
 ### Major style changes
 
-- Renamed `assets/jss/material-dashboard-react/layouts/dashboardStyle.js` to `assets/jss/material-dashboard-react/layouts/adminStyle.js`
+- Renamed `assets/jss/material-dashboard-react/views/dashboardStyle.js` to `assets/jss/material-dashboard-react/views/adminStyle.js`
 
 ### Deleted components
 
@@ -397,13 +397,13 @@ ajv                        6.9.1   →   6.10.0
 
 - **src/components/FixedPlugin/FixedPlugin.jsx**(Left menu used by us for customization - due to this, we've had to add a link for the fonts awesome cdn)
 - **src/components/Header/RTLHeaderLinks.jsx**
-- **src/layouts/Admin.jsx** (instead of Dashboard)
-- **src/layouts/RTL.jsx**
+- **src/views/Admin.jsx** (instead of Dashboard)
+- **src/views/RTL.jsx**
 - **src/views/RTLPage/RTLPage.jsx**
 
 ### Deleted components
 
-- **src/layouts/Dashboard/Dashboard.jsx** (renamed to Admin)
+- **src/views/Dashboard/Dashboard.jsx** (renamed to Admin)
 - **src/routes/dashboard.jsx**
 - **src/routes/index.jsx**
 
@@ -552,7 +552,7 @@ ajv                        6.9.1   →   6.10.0
 ### Major style changes
 
 - Moved the styles of `src/components/` inside `src/assets/jss/material-dashboard-react/components/`
-- Moved the styles of `src/layouts/` inside `src/assets/jss/material-dashboard-react/layouts/`
+- Moved the styles of `src/views/` inside `src/assets/jss/material-dashboard-react/views/`
 - Moved the styles of `src/views/` inside `src/assets/jss/material-dashboard-react/views/`
 - Almost all styles have been changed more or less
 
@@ -608,7 +608,7 @@ ajv                        6.9.1   →   6.10.0
 
 ### Bug Fixing
 
-- Renamed `src/containers/App/App.jsx` to `src/layouts/Dashboard/Dashboard.jsx`
+- Renamed `src/containers/App/App.jsx` to `src/views/Dashboard/Dashboard.jsx`
 - Renamed `src/variables/styles.jsx` to `src/assets/jss/material-dashboard-react.jsx`
 - Moved all the files from `src/variables/styles/` to `src/assets/jss/material-dashboard-react/`
 - Changes caused by the upgrade of `material-ui`
